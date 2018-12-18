@@ -5,7 +5,7 @@ import WeatherTemperature from "./WeatherTemperature";
 const WeatherData = () =>{
 
     return <div>
-        <WeatherTemperature></WeatherTemperature>
+        <WeatherTemperature temperature ={20} weatherstate={"hot"}></WeatherTemperature>
         <WeatherExtrainfo humidity={80} wind={"10ms"}></WeatherExtrainfo>
      </div>
 };
