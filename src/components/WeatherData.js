@@ -2,14 +2,13 @@ import React from  "react";
 import WeatherExtrainfo from "./WeatherExtrainfo";
 import WeatherTemperature from "./WeatherTemperature";
 
-const WeatherData = () =>(
+const WeatherData = () =>{
 
-    <div>
-        
+    return <div>
         <WeatherTemperature></WeatherTemperature>
-        <WeatherExtrainfo></WeatherExtrainfo>
-    </div>
-);
+        <WeatherExtrainfo humidity={80} wind={"10ms"}></WeatherExtrainfo>
+     </div>
+};
 
 export default WeatherData;
 
