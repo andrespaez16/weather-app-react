@@ -1,0 +1,43 @@
+.datacont{
+background:#D3D3D3;
+width: 400px;
+margin: auto;
+height:150px;
+line-height:150px;
+border-radius: 10px;
+}
+.extracont{
+background:#D3D3D3;
+width:40% ;
+display: inline-block;
+line-height: 28px;
+text-align: left;
+}
+.tempcont{
+
+width: 60%;
+display: inline-block;
+}
+
+.temperature{
+font-size:30px;
+font-weight: bold;
+padding-left: 20px;
+color:#333; 
+}
+
+.temperaturetype{
+    font-weight: bold;
+    color:#666; 
+}
+
+.extraspan{
+display: block;
+color:black;
+font-weight: bold;
+}
+
+.weicon{
+
+color:orange;
+}
